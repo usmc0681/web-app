@@ -12,8 +12,8 @@ xgb.__version__
 # In[2]:
 
 
-df_train = pd.read_csv("C:/Users/Tim/Desktop/Project/new1/Recidivism_Challenge_Train.csv")
-df_test = pd.read_csv("C:/Users/Tim/Desktop/Project/new1/Recidivism_Challenge_Test.csv")
+df_train = pd.read_csv("Recidivism_Challenge_Train.csv")
+df_test = pd.read_csv("Recidivism_Challenge_Test.csv")
 
 object_cols = [col for col in df_train.columns if df_train[col].dtype == 'object' or df_train[col].dtype == 'bool']
 
